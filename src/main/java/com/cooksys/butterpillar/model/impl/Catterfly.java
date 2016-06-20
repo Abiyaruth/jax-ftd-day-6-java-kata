@@ -5,7 +5,7 @@ import com.cooksys.butterpillar.model.ICatterfly;
 public class Catterfly implements ICatterfly {
 
 	private double wingspan;
-	private double weight;
+	public double weight;
 
 	public Catterfly() {
 		super();

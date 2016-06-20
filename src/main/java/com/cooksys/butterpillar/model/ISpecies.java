@@ -5,7 +5,6 @@ public interface ISpecies {
 	String getName();
 
 	void setName(String name);
-	
 	IGrowthModel getGrowthModel();
 	
 	void setGrowthModel(IGrowthModel growthModel);
